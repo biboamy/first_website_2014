@@ -1,0 +1,317 @@
+body
+{
+	margin: 0px;
+	background-image: url('images/recent_back.jpg');
+	min-width: 1280px;
+	overflow:scroll;
+}
+*
+{
+	font-family: Microsoft YaHei;
+}
+.rating
+{
+	left: 50px;
+	background-color: #606060;
+}
+#header
+{
+	background-color: #5a5a5a;
+	height:70px;
+	width: 100%;
+}
+#logo_img
+{
+	top:10px;
+	width: 25%;
+	height:42px;
+	margin-left: 5%;
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	float: left;
+}
+#search_block
+{
+	min-width: 500px;
+	width: 43%;
+	position: relative;
+	display: inline-block;
+}
+#button_block
+{
+	width: 25%;
+	position: relative;
+	display: inline-block;
+}
+#search_select
+{
+	height: 50px;
+	width: 52px;
+	margin-left: 15%;
+	top:10px;
+	float: left;
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+}
+#search_col
+{
+	float: left;
+	position: relative;
+	top:14px;
+	margin-left: -4px;
+	display: inline-block;
+	z-index: 1;
+}
+#search_text
+{
+	height:40px;
+	padding-left: 5px;
+}
+#deliver_search
+{
+	position: relative;
+	width: 55px;
+	top: 12px;
+	margin-left: 10px;
+	display: inline-block;
+	cursor: pointer;
+}
+#se_text
+{
+	font-size: 9px;
+	color: #9d9d9d;
+	position: relative;
+	width: 55px;
+	margin-left: 2px;
+	display: inline-block;
+}
+#mail_button
+{
+	position: relative;
+	width: 55px;
+	top: 20px;
+	float: right;
+	margin-right: 15%;
+	display: inline;
+	cursor: pointer;
+}
+#flag_button
+{
+	position: relative;
+	width: 55px;
+	top: 12px;
+	float: right;
+	margin-right: 15%;
+	display: inline;
+	cursor: pointer;
+}
+#friend_button
+{
+	position: relative;
+	width: 55px;
+	top: 12px;
+	float: right;
+	margin-right: 15%;
+	display: inline;
+	cursor: pointer;
+}
+#function_bar
+{
+	background-color: #191919;
+	height:30px;
+	padding-left: 3%;
+}
+.function_button
+{
+	cursor: pointer;
+	color:#999999;
+	display: inline-block;
+	padding-top: 3px;
+	width: 60px;
+	height: 27px;
+	text-align: center;
+}
+.function_button:hover
+{
+	cursor: pointer;
+	color:#222222;
+	background-color: #AAAAAA;
+	display: inline-block;
+	padding-top: 3px;
+	width: 60px;
+	height: 27px;
+	text-align: center;
+}
+.other_button
+{
+	float: right;
+	margin-right: 100px;
+	color:#999999;
+	/*font-family: verdana;*/
+	display: inline-block;
+	padding-top: 3px;
+	width: 80px;
+	height: 27px;
+	text-align: center;
+}
+/*******************intro update***********************/
+.work_title
+{
+	position: relative;
+	max-height: 60px;
+	margin-left: 20px;
+	top: 25px;
+	margin-left:7%;
+	z-index:1;
+}
+
+.work_table
+{
+	color: #676767;
+	font-size: 18px;
+	float: left;
+	width: 300px;
+	border-collapse: collapse;
+	line-height: 150%;
+	margin-left:5%;
+	margin-top:4;
+}
+#work_photo
+{
+	margin-left: 5%;
+	margin-top: 10px;
+	width: 330px;
+	height: 250px;
+	overflow: hidden;
+}
+
+.score{
+
+	left:-10%;
+	width:115px;
+}
+.work_name{
+	color: #35A71A;
+	font-weight: 700;
+	font-size:30px;
+	padding-top:8px;
+}
+.work_time{
+	font-size:12px;
+}
+
+.more_homework1
+{
+	height: 49px;
+	min-width:750px;
+	width: 1250px;
+	background-color: #EDEDED;
+	cursor: pointer;
+	width:90%;
+}
+.more_homework2
+{
+	height: 49px;
+	min-width:750px;
+	width: 1250px;
+	background-color: #EDEDED;
+	cursor: pointer;
+	width:90%;
+}
+.more_homework3
+{
+	height: 49px;
+	min-width:750px;
+	width: 1250px;
+	background-color: #EDEDED;
+	cursor: pointer;
+	width:90%;
+}
+.more_homework4
+{
+	height: 49px;
+	min-width:750px;
+	width: 1250px;
+	background-color: #EDEDED;
+	cursor: pointer;
+	width:90%;
+}
+
+.main{
+	overflow:hidden;
+	margin-top:7%;
+
+
+}
+/********FOOTER********/
+#footer
+{
+	margin-top: 10px;
+	background-color: #191919;
+	height:60px;
+	width: 100%;
+	overflow: hidden;
+}
+#logo_img
+{
+	top:10px;
+	width: 25%;
+	height:42px;
+	margin-left: 5%;
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	float: left;
+}
+/*********************/
+/** jRating CSS **/
+/*********************/
+
+/**Div containing the color of the stars */
+.jRatingAverage {
+	background-color:orange;
+	position:relative;
+	top:0;
+	left:0;
+	z-index:2;
+	height:100%;
+}
+.jRatingColor {
+	background-color:#35A71A; /* bgcolor of the stars*/
+	position:relative;
+	top:0;
+	left:0;
+	z-index:2;
+	height:100%;
+}
+
+/** Div containing the stars **/
+.jStar {
+	position:relative;
+	left:0px;
+	z-index:3;
+}
+
+/** P containing the rate informations **/
+p.jRatingInfos {
+	position:		absolute;
+	z-index:9999;
+	background:	transparent url('icons/bg_jRatingInfos.png') no-repeat;
+	color:			#FFF;
+	display:		none;
+	width:			91px;
+	height:			29px;	
+	font-size:16px;
+	text-align:center;
+	padding-top:5px;
+}
+	p.jRatingInfos span.maxRate {
+		color:#c9c9c9;
+		font-size:14px;
+	}
+.rating{
+	left:0px;
+	margin-top:2%;
+}

@@ -1,0 +1,54 @@
+$(document).ready(function(){
+  $("#1").hover(function(){
+	$("#1").css("background-color","#E6E6E6");
+		},function(){
+	$("#1").css("background-color","#CCCCCC");
+	});
+});
+$(document).ready(function(){
+  $(".your_friend1").hide();
+});	
+$(document).ready(function(){
+  $(".your_friend2").hide();
+});	
+$(document).ready(function(){
+  $("#1").click(function(){
+	$(".your_friend").show();});
+  $("#1").click(function(){
+	$(".your_friend1").hide();});
+  $("#1").click(function(){
+	$(".your_friend2").hide();});
+  $("#2").click(function(){
+	$(".your_friend").hide();});
+  $("#2").click(function(){
+	$(".your_friend1").show();});
+  $("#2").click(function(){
+	$(".your_friend2").hide();});
+  $("#3").click(function(){
+	$(".your_friend").hide();});
+  $("#3").click(function(){
+	$(".your_friend1").hide();});
+  $("#3").click(function(){
+	$(".your_friend2").show();});
+});	
+$(document).ready(function(){
+  $("#2").hover(function(){
+	$("#2").css("background-color","#E6E6E6");
+		},function(){
+	$("#2").css("background-color","#CCCCCC");
+	});
+});
+$(document).ready(function(){
+  $("#3").hover(function(){
+	$("#3").css("background-color","#E6E6E6");
+		},function(){
+	$("#3").css("background-color","#CCCCCC");
+	});
+});
+$(document).ready(function(){
+  $("#4").hover(function(){
+	$("#4").css("background-color","#E6E6E6");
+		},function(){
+	$("#4").css("background-color","#CCCCCC");
+	});
+});

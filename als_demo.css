@@ -1,0 +1,178 @@
+/********************************
+ * generic als elements styling
+ ********************************/
+.als-container {
+	position: relative;
+	width:1250px;
+	height:500px;
+	background-color:#EDEDED;
+	border-bottom: 2px solid gray;
+	min-width:750px;
+	width:90%;
+	margin: 20px auto 20px auto;
+}
+
+.als-viewport {
+	position: relative;
+	overflow: hidden;
+	margin:0 auto;
+	width:90%;
+	height:502px;
+}
+
+.als-wrapper {
+	position: relative;
+	list-style: none;
+	width:1200px;
+}
+
+.als-item {
+	position: relative;
+	display: block;
+	text-align: center;
+	float: left;
+	width:50px;
+	height:90%;
+	margin-top:50px;
+	padding-right:170px;
+
+}
+.work_img{
+	margin-top: 10px;
+	height:250px;
+	width:298px;
+}
+.als-prev, .als-next {
+	position: absolute;
+	cursor: pointer;
+	clear: both;
+}
+
+/**************************
+ * specific als elements
+ * styling for #lista1
+ **************************/
+/*ee*/
+#lista4 {
+	margin: 0px auto 0px auto;
+}
+
+#lista4 .als-item {
+	margin: 20px 30px;
+	min-height: 152px;
+	min-width: 128px;
+}
+
+#lista4 .als-item img {
+	position: relative;
+	display: block;
+	vertical-align: middle;
+	margin-bottom: 8px;
+}
+
+#lista4 .als-prev, #lista4 .als-next {
+	top: 45%;
+	width: 15px;
+	height: 22px;
+}
+
+#lista4 .als-prev {
+	left: 20px;
+}
+
+#lista4 .als-next {
+	right: 20px;
+}
+/*computer*/
+#lista3 {
+	margin: 0px auto 0px auto;
+}
+
+#lista3 .als-item {
+	margin: 20px 30px;
+	min-height: 152px;
+	min-width: 128px;
+}
+
+#lista3 .als-item img {
+	position: relative;
+	display: block;
+	vertical-align: middle;
+	margin-bottom: 8px;
+}
+
+#lista3 .als-prev, #lista3 .als-next {
+	top: 45%;
+	width: 15px;
+	height: 22px;
+}
+
+#lista3 .als-prev {
+	left: 20px;
+}
+
+#lista3 .als-next {
+	right: 20px;
+}
+/*manage*/
+#lista2 {
+	margin: 0px auto 0px auto;
+}
+
+#lista2 .als-item {
+	margin: 20px 30px;
+	min-height: 152px;
+	min-width: 128px;
+}
+
+#lista2 .als-item img {
+	position: relative;
+	display: block;
+	vertical-align: middle;
+	margin-bottom: 8px;
+}
+
+#lista2 .als-prev, #lista2 .als-next {
+	top: 45%;
+	width: 15px;
+	height: 22px;
+}
+
+#lista2 .als-prev {
+	left: 20px;
+}
+
+#lista2 .als-next {
+	right: 20px;
+}
+/*design*/
+#lista1 {
+	margin: 0px auto 0px auto;
+}
+
+#lista1 .als-item {
+	margin: 20px 30px;
+	min-height: 152px;
+	min-width: 128px;
+}
+
+#lista1 .als-item img {
+	position: relative;
+	display: block;
+	vertical-align: middle;
+	margin-bottom: 8px;
+}
+
+#lista1 .als-prev, #lista1 .als-next {
+	top: 45%;
+	width: 15px;
+	height: 22px;
+}
+
+#lista1 .als-prev {
+	left: 20px;
+}
+
+#lista1 .als-next {
+	right: 20px;
+}
